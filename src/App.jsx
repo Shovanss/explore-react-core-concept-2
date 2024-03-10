@@ -3,7 +3,9 @@ import './App.css'
 import Counter from './Counter'
 import Friends from './Friends'
 import Players from './Players'
+import Posts from './Posts'
 import Users from './Users'
+
 
 function App() {
   function handleClick(){
@@ -21,6 +23,7 @@ alert(num + 5);
   return (
     <>
       <h3>React Core Concepts 2</h3>
+      <Posts></Posts>
       <Friends></Friends>
       <Users></Users>
       <Players></Players>
